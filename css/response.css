@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media handheld, only screen and (max-width: 1010px), only screen and (max-device-width: 1010px) and (orientation:portrait)
+{
+	/* Header */
+	header #menu.screen{ display: none; }
+	header #mobile-menu{ display: block; }
+
+	/* Homepage */
+	.logo{ margin: 0px 0px 0px 10px; }
+	.wrapper{ padding: 0px 20px; }
+	.two-col .wrapper{ flex-wrap: wrap; }
+	.two-col .wrapper .left,
+	.two-col .wrapper .right{ width: 100%; }
+	.two-col .wrapper .left{ margin: 0px 0px 40px 0px; }
+	
+	/* Footer */
+	footer .right{ padding: 0px; }
+}
+
+@media handheld, only screen and (max-width: 640px), only screen and (max-device-width: 640px) and (orientation:portrait)
+{
+	/* Homepage */
+	#head .wrapper .text { max-width: none; position: absolute; top: 50%; transform: translateY(-50%); }
+}
+
+@media handheld, only screen and (max-width: 480px), only screen and (max-device-width: 480px) and (orientation:portrait)
+{
+	/* Header */
+	header .logo{ width: 220px; }
+	header #mobile-menu{ top: 43px; }
+	#head .wrapper .text p{ font-size: 28px; }
+
+	.two-col.blue .right p,
+	.two-col.white .right p{ font-size: 18px; line-height: 26px; margin: 0px 0px 30px; }
+}
+
