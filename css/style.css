@@ -99,8 +99,8 @@ header{ padding: 30px 0px 0px; position: relative; }
 .two-col .right{ width: 66.8%; }
 .two-col.blue{ background: #003c7e; }
 .two-col.blue .left h2{ font-size: 36px; color: #fff; line-height: 28px; font-weight: 700; }
-.two-col.blue .left p{ font-size: 20px; color: #fff; margin: 40px 0px 0px; }
-.two-col.blue .right p{ font-size: 20px; color: #fff; line-height: 28px; font-weight: 600; margin: 0px 0px 40px; }
+.two-col.blue .left p{ font-size: 20px; color: #fff; margin: 0px 0px 0px; }
+.two-col.blue .right p{ font-size: 20px; color: #fff; line-height: 28px; font-weight: 600; margin: 0px 0px 0px; }
 .two-col.blue .right p.small{ font-size: 16px; line-height: 24px; margin: 70px 0px 0px; }
 .two-col.blue .right p:last-child{ margin: 0px; }
 .two-col.white .left h2{ font-size: 36px; color: #003c7e; line-height: 42px; font-weight: 700; }
