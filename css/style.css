@@ -33,7 +33,7 @@ a{ text-decoration: none; font-size: 14px; color: #ce5c18; }
 a:hover{ color: #a53900; }
 img{ max-width:100%; height:auto; vertical-align: top; }
 img.vertical{ max-width: none; width: auto; height: 100%; }
-.center{ max-width:1200px; margin:0 auto 0 auto; }
+.center{ max-width:100%; margin:0 auto 0 auto; }
 .trans { transition: 0.5s all; -webkit-transition: 0.5s all; }
 .clear{ clear:both; }
 .no-scroll{ overflow: hidden;}
@@ -93,7 +93,7 @@ header{ padding: 30px 0px 0px; position: relative; }
 
 
 /* All section */
-.wrapper{ padding: 0px 80px; }
+.wrapper{ padding: 0% 20%; }
 .two-col{ padding: 50px 0px; }
 .two-col .left{ width: 33.2%; }
 .two-col .right{ width: 66.8%; }
